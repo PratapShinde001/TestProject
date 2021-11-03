@@ -90,6 +90,7 @@ public class FBverify extends FBbase{
 		Thread.sleep(3000);				
 		home.MarketPlace();
 		Thread.sleep(3000);
+		driver.getCurrentUrl();
 		soft.assertAll();
 	}
 	
